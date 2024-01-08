@@ -21,7 +21,8 @@ header {
     z-index: 100;
 }
 .navbar {
-    margin-left: 490px;
+/*     margin-left: 490px; */
+    float: right;
 }
 .navbar a{
     position: relative;
