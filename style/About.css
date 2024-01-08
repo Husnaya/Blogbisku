@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.navbar {
+    margin-left: 490px;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: 0.3s;
+}
+.navbar a:hover::before {
+    width: 100%;
+}
+.blogku {
+    display: flex;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.logo {
+    height: 40px;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../assets/foto/Bgrund.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Segoe UI;
+}
+
+.content {
+    margin: 0;
+    padding-left: 150px;
+    padding-top: 200px;
+    color: white;
+}
+.tekscontent {
+    padding-top: 5px;
+}
+.bgprofil {
+    background-color: #fff;
+    color: black;
+    padding-top: 80px;
+    padding-left: 20px;
+    display: flex;
+}
+.profil{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    font-family:'Segoe UI';
+}
+.table {
+    padding-top: 10px;
+}
+.foto {
+    width: 250px;
+    padding-top: 30px;
+    margin-left: 150px;
+}
+.me {
+    padding-top: 30px;
+    text-align: center;
+}
+.bgme{
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.me{
+    padding-top: 120px;
+    text-align: center;
+    margin: 0px 150px;
+    color: black;
+    font-family: segoe UI;
+}
+.paddingtop {
+    padding-top: 50px;
+}
+.ig {
+    padding-top: 30px;
+}
+.wa {
+    padding-left: 20px;
+}
+.mail {
+    padding-left: 20px;
+}
+.keatas {
+    padding-left: 1250px;
+    color: azure;
+}
+.kembali {
+    padding-left: 20px;
+    color: white;
+}
+
+/* Start Footer */
+footer {
+    background-color: rgb(179, 176, 172);
+}
+
+.footertop {
+    width: 100%;
+    padding: 25px 20px 10px;
+}
+
+.sosialicons {
+    display: flex;
+    justify-content: center;
+}
+.sosialicons a{
+    text-decoration: none;
+    padding: 13px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.sosialicons a i {
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+}
+
+.sosialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.sosialicons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav {
+    margin: 20px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover {
+    opacity: 1;
+}
+
+.footerbottom {
+    background-color: rgb(99, 97, 97);
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
