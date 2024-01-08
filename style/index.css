@@ -82,6 +82,10 @@ header {
 .isi a:hover {
     color: white;
 }
+.a-btn {
+    margin-top: 70px;
+    margin-left: 60px;
+}
 .isi .action_btn {
     background-color: orange;
     color: black;
