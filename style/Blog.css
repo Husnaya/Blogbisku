@@ -13,7 +13,7 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    padding: 20px 100px;
+    padding: 20px 80px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     display: flex;
@@ -21,7 +21,7 @@ header {
     z-index: 100;
 }
 .navbar {
-    margin-left: 490px;
+    padding-left: 400px;
 }
 .navbar a{
     position: relative;
@@ -91,58 +91,22 @@ header {
     color: white;
     font-size: 20px;
 }
-.isi .action_btn_1 {
+.a-btn {
+    margin-top: 20px;
+}
+.isi .action_btn {
     background-color: orange;
     color: black;
     border: none;
     outline: none;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 142%;
-    left: 51%;
+    margin-left: 50px;
     padding: 10px 35px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 10px ;
     cursor: pointer;
 }
-.isi .action_btn_1:hover {
-    color: white;
-}
-.isi .action_btn_2 {
-    background-color: orange;
-    color: black;
-    border: none;
-    outline: none;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 189%;
-    left: 51%;
-    padding: 10px 35px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 10px ;
-    cursor: pointer;
-}
-.isi .action_btn_2:hover {
-    color: white;
-}
-.isi .action_btn_3 {
-    background-color: orange;
-    color: black;
-    border: none;
-    outline: none;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 240%;
-    left: 51%;
-    padding: 10px 35px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 10px ;
-    cursor: pointer;
-}
-.isi .action_btn_3:hover {
+.isi .action_btn:hover {
     color: white;
 }
 
