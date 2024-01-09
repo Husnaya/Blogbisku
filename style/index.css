@@ -13,7 +13,7 @@ header {
     left: 0;
     width: 100%;
     display: flex;
-    padding: 20px 100px;
+    padding: 20px 80px;
     background-color: rgb(255, 255, 255);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     display: flex;
@@ -21,7 +21,7 @@ header {
     z-index: 100;
 }
 .navbar {
-    padding-left: 390px;
+    padding-left: 400px;
 }
 .navbar a{
     position: relative;
